@@ -8,7 +8,7 @@ This is a proof of concept project to automatically solve [CaptchaFox](https://c
 git clone https://github.com/AzureFlow/captchafox-poc.git
 pnpm install
 
-pnpm run start -- login username password
+pnpm run start
 ```
 
 ## 🔨 Usage
