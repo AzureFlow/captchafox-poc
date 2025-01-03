@@ -1,0 +1,28 @@
+{
+	"name": "captchafox-poc",
+	"version": "0.0.1",
+	"private": true,
+	"description": "A POC for CaptchaFox",
+	"keywords": [
+		"captcha"
+	],
+	"license": "MIT",
+	"author": "AzureFlow",
+	"type": "module",
+	"scripts": {
+		"start": "node src/app.js"
+	},
+	"dependencies": {
+		"fflate": "^0.8.2",
+		"ndarray": "^1.0.19",
+		"node-fetch": "^3.3.2",
+		"pngjs": "^7.0.0"
+	},
+	"devDependencies": {
+		"@types/ndarray": "^1.0.14"
+	},
+	"packageManager": "pnpm@8.6.7",
+	"engines": {
+		"node": ">=18.0"
+	}
+}
